@@ -1,0 +1,11 @@
+body{
+    position: relative;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: aqua;
+}
