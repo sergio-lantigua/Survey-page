@@ -1,3 +1,9 @@
+html { font-size: 62.5%;}
+
+* {
+    box-sizing: border-box;
+}
+
 body{
      font-family: 'Roboto', sans-serif;
      background: url(https://previews.123rf.com/images/seamartini/seamartini1611/seamartini161100889/67683598-fast-food-background-seamless-pattern-with-vector-flat-icons-of-cheeseburger-pizza-burrito-french-fr.jpg);
@@ -6,17 +12,14 @@ body{
      align-items: center;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 h1, p, #summit-button { 
     text-align: center;
 }
  
-#lola{
-    text-align: center;
+h1 {
+    font-size: 4rem;
 }
+
 
 #title {
     color: #FF774D;
@@ -24,10 +27,10 @@ h1, p, #summit-button {
 
 #title-div {
     background-color: #F3D9A0;
-    width: 400px;
-    height: 55px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 35%;
+    height: 5.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
 }
 
 
@@ -35,32 +38,26 @@ h1, p, #summit-button {
 form {
     font-family: 'Roboto', sans-serif; 
     font-weight: 300;
-    font-size: 19px;
+    font-size: 1.9rem;
     width: 75%;
     height: 75%;
     margin: auto;
-    border-radius: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 2.5rem;
     background-color: #F3D9A0;
 }
 
 
 
 #description, #description1 {
-    font-size: 23px;
+    font-size: 2.3rem;
     font-weight: 600;
     color: #FF774D;
 }
 
 #explanation {
-    width: 800px;
-    margin-left: 100px;
-    text-align: justify;
-}
-
-
-
-.left-margin {
-    margin-left: 160px;
+    text-align: center;
 }
 
 
@@ -69,26 +66,26 @@ form {
 }
 
 #name, #email, #number {
-    height: 25px;
-    width: 200px;
-    border-radius: 5px;
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
 }
 
 select {
-    height: 25px;
-    width: 125px;
-    border-radius: 5px;
+    height: 2.5rem;
+    width: 12.5rem;
+    border-radius: 0.5rem;
 }
 
 #rate {
-    height: 25px;
-    width: 60px;
-    border-radius: 5px;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 0.5rem;
 }
 
 .column {
     display: grid;
-    grid-template-columns: 300px 150px ;
+    grid-template-columns: 50% 50%;
     grid-column-gap: 15px;
     justify-self: center;
 }
@@ -98,17 +95,102 @@ select {
 }
 
 span {
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 button {
-    height: 50px;
-    width: 100px;
-    font-size: 25px;
-    border-radius: 10px;
+    height: 5rem;
+    width: 10rem;
+    font-size: 2.5rem;
+    border-radius: 1rem;
     background-color: #FF774D;
 }
 
 textarea {
-    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5px;
 }
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    html { font-size: 55%;} 
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-aling {
+        text-align: left;
+    }
+
+    #expla {
+        text-align: center;
+    }
+
+    .margin-top {
+        margin-top: 5px;
+    }
+
+    form {
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+
+    #explanation {
+       margin-top: -40px;
+    }
+
+
+    #title-div {
+        background-color: #F3D9A0;
+        width: 75%;
+        height: 5.5rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.0rem;
+        text-decoration: underline;
+    }
+
+  }
+  
+
+  @media screen and (max-width: 1000px) and (min-width: 768px) {
+
+    html { font-size: 60%;}
+
+    #title-div {
+        background-color: #F3D9A0;
+        width: 50%;
+        height: 5.5rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+
+    #expla {
+        text-align: justify;
+    }
+    
+    #explanation {
+        margin-top: -32px;
+     }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+  }
+
+  @media screen and (min-width: 1001px) {
+
+      
+    h1 {
+        font-size: 2.7rem;
+    }
+
+  }
+  
+
+  

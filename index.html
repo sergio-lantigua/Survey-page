@@ -17,34 +17,34 @@
     <form id="survey-form" action="">
         <div id="main-div"> <br>
             <div id="explanation">
-                <p>We aim to provide our customers with great food and efficient service. Please take 5 minutes to
+                <p id="expla">We aim to provide our customers with great food and efficient service. Please take 5 minutes to
                     complete our survey and help us maintain our reputation as one of the best restaurants in the area.
                 </p>
             </div>
             <div>
                 <p id="description">Tell us about you.....</p>
             </div>
-            <div class="column left-margin">
-                <div class="justify-end"><label class="label1" for="" id="name-label">Name:</label> </div>
-                <div><input class="move" id="name" type="text" placeholder="Please enter your name" required></div>
+            <div class="column">
+                <div class="justify-end"><label for="" id="name-label">Name:</label> </div>
+                <div class="margin-top"><input class="move" id="name" type="text" placeholder="Please enter your name" required></div>
             </div> <br>
-            <div class="column left-margin">
-                <div class="justify-end"><label class="label1" for="email" id="email-label">Email:</label></div>
-                <div><input class="move" id="email" type="email" name="email" placeholder="Please enter your email"
+            <div class="column">
+                <div class="justify-end"><label for="email" id="email-label">Email:</label></div>
+                <div class="margin-top"><input class="move" id="email" type="email" name="email" placeholder="Please enter your email"
                         required></div>
             </div><br>
-            <div class="column left-margin">
-                <div class="justify-end"><label class="label1" for="number" id="number-label">Age:</label></div>
-                <div><input class="move" id="number" type="number" name="number" min="1" max="100"
+            <div class="column">
+                <div class="justify-end"><label for="number" id="number-label">Age:</label></div>
+                <div class="margin-top"><input class="move" id="number" type="number" name="number" min="1" max="100"
                         placeholder="Please enter your age" required></div>
             </div> <br>
-            <div id="lola">
+            <div>
                 <p id="description1">Tell us about your visit.....</p>
             </div>
-            <div class="column left-margin">
+            <div class="column">
                 <div class="justify-end text-aling"> <label for="radio"> Which Smash Bro Cafe did you visit?
                     </label></div>
-                <div id="radio">
+                <div class="margin-top" id="radio">
                     <label id="mm" for="Miami"><input type="radio" name="radio1" id="Miami"
                             value="miami">Miami</label><br>
                     <label for="Boston"><input type="radio" name="radio1" id="Boston" value="boston">Boston</label><br>
@@ -54,10 +54,10 @@
                         Angeles</label>
                 </div>
             </div> <br>
-            <div class="column left-margin">
+            <div class="column">
                 <div class="justify-end text-aling"><label>How often on average, do you visit this restaurant?</label>
                 </div>
-                <div>
+                <div class="margin-top">
                     <select class="move" name="dropdownlist" id="dropdown">
                         <option value="">Daily</option>
                         <option value="">Twice a Week</option>
@@ -66,10 +66,10 @@
                     </select>
                 </div>
             </div> <br>
-            <div class="column left-margin">
+            <div class="column">
                 <div class="justify-end text-aling"><label>Which of the following items did you order today? </label>
                 </div>
-                <div>
+                <div class="margin-top">
                     <label for="Pizza"><input type="checkbox" name="" id="Pizza" value="pizza">Pizza</label><br>
                     <label for="Hamburguer"><input type="checkbox" name="" id="Hamburguer"
                             value="hamburguer">Hamburguer</label><br>
@@ -85,9 +85,9 @@
                     <label for="Other"><input type="checkbox" name="" id="Other" value="other">Other</label><br>
                 </div>
             </div> <br>
-            <div class="column left-margin">
+            <div class="column">
                 <div class="justify-end text-aling"><label>For you, what was the worst restaurant quality?</label></div>
-                <div>
+                <div class="margin-top"> 
                     <select class="move" name="" id="">
                         <option value="">Speed of Service</option>
                         <option value="">Cleanliness</option>
@@ -97,17 +97,16 @@
                     </select>
                 </div>
             </div> <br>
-            <div class="column left-margin">
+            <div class="column">
                 <div class="justify-end text-aling"><label for="rate" id="number-label">How do you rate the overall
                         performance of this restaurant?<span>(Rate on a scale of 1 to 10, where 10 is Excellent and 1 is
                             Poor)</span></label></div>
-                <div><input id="rate" class="move" type="number" name="number" min="1" max="10" placeholder="Rate us"
+                <div class="margin-top"><input id="rate" class="move" type="number" name="number" min="1" max="10" placeholder="Rate us"
                         required></div>
             </div> <br>
-            <div class="column left-margin">
-                <div class="justify-end"><label for="textarea">Any comments or suggestion?</label></div>
-                <div><textarea class="move" name="" id="textarea" cols="40" rows="6"
-                        placeholder="Enter your comment here...."></textarea></div>
+            <div class="column">
+                <div class="justify-end text-aling"><label for="textarea">Any comments or suggestion?</label></div>
+                <div class="margin-top"><textarea class="move" name="" id="textarea" placeholder="Enter your comment here...."></textarea></div>
             </div> <br>
             <div id="summit-button">
                 <button id="submit" type="submit">Submit</button>
