@@ -113,82 +113,13 @@ textarea {
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
-    html { font-size: 55%;} 
-
-    .column {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .text-aling {
-        text-align: left;
-    }
-
-    #expla {
-        text-align: center;
-    }
-
-    .margin-top {
-        margin-top: 5px;
-    }
-
-    form {
-        border-radius: 0 0 1.5rem 1.5rem;
-    }
-
-    #explanation {
-       margin-top: -40px;
-    }
-
-
-    #title-div {
-        background-color: #F3D9A0;
-        width: 75%;
-        height: 5.5rem;
-        border-top-left-radius: 1.5rem;
-        border-top-right-radius: 1.5rem;
-    }
-
-    h1 {
-        font-size: 2.0rem;
-        text-decoration: underline;
-    }
-
-  }
-  
+}
 
   @media screen and (max-width: 1000px) and (min-width: 768px) {
 
-    html { font-size: 60%;}
-
-    #title-div {
-        background-color: #F3D9A0;
-        width: 50%;
-        height: 5.5rem;
-        border-top-left-radius: 1.5rem;
-        border-top-right-radius: 1.5rem;
-    }
-
-    #expla {
-        text-align: justify;
-    }
-    
-    #explanation {
-        margin-top: -32px;
-     }
-
-    h1 {
-        font-size: 2.8rem;
-    }
   }
 
   @media screen and (min-width: 1001px) {
-
-      
-    h1 {
-        font-size: 2.7rem;
-    }
 
   }
   
