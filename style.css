@@ -6,112 +6,64 @@ html { font-size: 62.5%;}
 
 body{
      font-family: 'Roboto', sans-serif;
-     background: url(https://previews.123rf.com/images/seamartini/seamartini1611/seamartini161100889/67683598-fast-food-background-seamless-pattern-with-vector-flat-icons-of-cheeseburger-pizza-burrito-french-fr.jpg);
+     /* background: url(https://previews.123rf.com/images/seamartini/seamartini1611/seamartini161100889/67683598-fast-food-background-seamless-pattern-with-vector-flat-icons-of-cheeseburger-pizza-burrito-french-fr.jpg); */
      display: flex;
      flex-direction: column;
-     align-items: center;
+     /* align-items: center; */
 }
-
-h1, p, #summit-button { 
-    text-align: center;
-}
- 
-h1 {
-    font-size: 4rem;
-}
-
-
-#title {
-    color: #FF774D;
-}
-
-#title-div {
-    background-color: #F3D9A0;
-    width: 35%;
-    height: 5.5rem;
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
-}
-
-
 
 form {
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 300;
-    font-size: 1.9rem;
-    width: 75%;
-    height: 75%;
+    width: 70%;
+    height: 80%;
+    background-color: rgba(255, 115, 0, 0.966);
+    display: flex;
+}
+
+ #pepe {
+     font-size: 2.0em;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
     margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 2.5rem;
-    background-color: #F3D9A0;
-}
+}  
 
-
-
-#description, #description1 {
-    font-size: 2.3rem;
-    font-weight: 600;
-    color: #FF774D;
-}
-
-#explanation {
-    text-align: center;
-}
-
-
-.justify-end {
-    justify-self: end;
-}
-
-#name, #email, #number {
-    height: 2.5rem;
-    width: 20rem;
-    border-radius: 0.5rem;
-}
-
-select {
-    height: 2.5rem;
-    width: 12.5rem;
-    border-radius: 0.5rem;
-}
-
-#rate {
-    height: 2.5rem;
-    width: 6rem;
-    border-radius: 0.5rem;
-}
-
-.column {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 15px;
-    justify-self: center;
-}
-
-.text-aling {
-    text-align: right;
-}
-
-span {
-    font-size: 1.5rem;
-}
-
-button {
-    height: 5rem;
-    width: 10rem;
-    font-size: 2.5rem;
-    border-radius: 1rem;
-    background-color: #FF774D;
-}
-
-textarea {
-    width: 100%;
+.displayflex {
+    width: 50%;
     height: 100%;
-    border-radius: 0.5px;
+    display: flex;
+    flex-direction: column;
 }
 
+
+#label-div {
+    background-color: red;
+    text-align: end;
+
+}
+
+.move {
+   width: 25rem;
+   height: 2.5rem;
+}
+
+#input-div {
+    margin-left: 1%;
+}
+
+.height-27{
+    width: 100%;
+    height: 2.7rem;
+}
+
+#p1 {
+    width: 100%;
+    height: 9.6rem;
+}
+
+#p2 {
+    width: 100%;
+    height: 19.6rem;
+}
 @media screen and (max-width: 767px) and (min-width: 320px) {
 }
 
@@ -122,6 +74,5 @@ textarea {
   @media screen and (min-width: 1001px) {
 
   }
-  
 
-  
+
