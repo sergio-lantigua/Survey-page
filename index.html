@@ -16,70 +16,95 @@
     </div>
     <form id="survey-form" action="">
         <div id="explanation">
-            <p id="expla">We aim to provide our customers with great food and efficient service. Please take 5 minutes to
+            <p id="expla">We aim to provide our customers with great food and efficient service. Please take 5 minutes
+                to
                 complete our survey and help us maintain our reputation as one of the best restaurants in the area.
             </p>
-        </div> 
+        </div>
         <div>
             <p id="description">Tell us about you.....</p>
         </div>
-            <div id="pepe">
-                    <div id="label-div" class="displayflex">
-                        <div class="height-27"><label for="name" id="name-label">Name:</label> </div><br>
-                        <div class="height-27"><label for="email" id="email-label">Email:</label></div><br>
-                        <div class="height-27"><label for="number" id="number-label">Age:</label></div><br>
-                        <div id="visit"><p>Tell us about your visit....</p></div>
-                <div id="p1"> <label for="radio"> Which Smash Bro Cafe did you visit?</label></div><br>
-                <div class="height-27"><label>How often on average, do you visit this restaurant?</label></div><br><br>
-                <div id="p2"><label>Which of the following items did you order today?</label></div><br>
-                <div class="height-27 "><label>For you, what was the worst restaurant quality?</label></div><br><br>
-                <div><label for="rate" id="number-label">How do you rate the over performance of this restaurant?<span>(Rate on a scale of 1 to 10, where 10 is Excellent and 1 is Poor)</span></label></div><br>
-                <div id="text-label"><label for="textarea">Any comments or suggestion?</label></div>
-        </div>
-        <div id="input-div" class="displayflex">
-            <div class="justify-end"><input id="name"   class="move"  type="text" placeholder="Please enter your name" required></div><br>
-            <div class="justify-end"><input id="email"  class="move"    type="email" name="email" placeholder="Please enter your email" required></div><br>
-            <div id="number-input"><input id="number" class="move"   type="number" name="number" min="1"  max="100" required></div><br>
-            <div id="div-div"></div>
-            <div class="justify-end" id="radio">
-                <label id="mm" for="Miami"><input type="radio" name="radio1" id="Miami" value="miami">Miami</label><br>
-                <label for="Boston"><input type="radio" name="radio1" id="Boston" value="boston">Boston</label><br>
-                <label for="New York"><input type="radio" name="radio1" id="New York" value="new-york">New York</label> <br>
-                <label for="Los Angeles"><input type="radio" name="radio1" id="Los Angeles" value="los-angeles">Los Angeles</label>
-             </div><br>
-        <div class="justify-end">
-        <select name="dropdownlist" id="dropdown">
-            <option value="">Daily</option>
-            <option value="">Twice a Week</option>
-            <option value="">Weekly</option>
-            <option value="">Montly</option>
-        </select>
-        </div><br><br>
-        <div class="justify-end">
-            <label for="Pizza"><input type="checkbox" name="" id="Pizza" value="pizza">Pizza</label><br>
-            <label for="Hamburguer"><input type="checkbox" name="" id="Hamburguer" value="hamburguer">Hamburguer</label><br>
-            <label for="Tacos"><input type="checkbox" name="" id="Tacos" value="tacos">Tacos</label><br>
-            <label for="Burritos"><input type="checkbox" name="" id="Burritos" value="burritos">Burritos</label><br>
-            <label for="French-Fries"><input type="checkbox" name="" id="French-Fries" value="french-fries">French Fries</label><br>
-            <label for="Ice-Cream"><input type="checkbox" name="" id="Ice-Cream" value="ice-cream">Ice Cream</label><br>
-            <label for="Coffe-Tea"><input type="checkbox" name="" id="Coffe-Tea" value="coffe-tea">Coffe/Tea</label><br>
-            <label for="Other"><input type="checkbox" name="" id="Other" value="other">Other</label><br>
+        <div class="flex-div">
+            <div class="left-div"><label for="name" id="name-label">Name:</label> </div>
+            <div class="right-div"><input id="name" class="move" type="text" placeholder="Please enter your name"
+                    required></div>
+        </div><br> 
+        <div class="flex-div">
+            <div class="left-div"><label for="email" id="email-label">Email:</label></div>
+            <div class="right-div"><input id="email" class="move" type="email" name="email"
+                    placeholder="Please enter your email" required></div>
         </div><br>
-        <div class="justify-end">
-        <select  id="" class="down">
-            <option value="">Speed of Service</option>
-            <option value="">Cleanliness</option>
-            <option value="">Parking</option>
-            <option value="">Quality of food</option>
-            <option value="">Choice of food</option>
-        </select>
-        </div><br><br>
-        <div id="rate1"><input id="rate"  class="down" type="number" name="number" min="1" max="10" placeholder="Rate us" required></div><br>
-        <div id="txt-div"><textarea  name="" id="textarea"  placeholder="Enter your comment here...."></textarea></div>
+        <div class="flex-div">
+            <div class="left-div"><label for="number" id="number-label">Age:</label></div>
+            <div id="number-input" class="right-div"><input id="number" class="move" type="number" name="number" min="1" max="100" placeholder="Please enter your age"
+                    required></div>
+        </div><br>
+        <div id="visit">
+            <p>Tell us about your visit....</p>
         </div>
+        <div class="flex-div">
+            <div id="p1"  class="left-div"> <label for="radio"> Which Smash Bro Cafe did you visit?</label></div>
+            <div class="column-div right-div" id="radio">
+                <label id="mm" for="Miami"><input type="radio" name="radio1" id="Miami" value="miami">Miami</label>
+                <label for="Boston"><input type="radio" name="radio1" id="Boston" value="boston">Boston</label>
+                <label for="New York"><input type="radio" name="radio1" id="New York" value="new-york">New York</label>
+                <label for="Los Angeles"><input type="radio" name="radio1" id="Los Angeles" value="los-angeles">Los
+                    Angeles</label>
+            </div>
+        </div><br>
+        <div class="flex-div">
+            <div class="left-div"><label>How often on average, do you visit this restaurant?</label></div>
+            <div class="right-div">
+                    <select name="dropdownlist" id="dropdown">
+                    <option value="">Daily</option>
+                    <option value="">Twice a Week</option>
+                    <option value="">Weekly</option>
+                    <option value="">Montly</option>
+                </select>
+            </div>
+        </div><br>
+        <div class="flex-div">
+            <div id="p2" class="left-div"><label>Which of the following items did you order today?</label></div>
+            <div class="column-div right-div">
+                <label for="Pizza"><input type="checkbox" name="" id="Pizza" value="pizza">Pizza</label>
+                <label for="Hamburguer"><input type="checkbox" name="" id="Hamburguer"
+                        value="hamburguer">Hamburguer</label>
+                <label for="Tacos"><input type="checkbox" name="" id="Tacos" value="tacos">Tacos</label>
+                <label for="Burritos"><input type="checkbox" name="" id="Burritos" value="burritos">Burritos</label>
+                <label for="French-Fries"><input type="checkbox" name="" id="French-Fries" value="french-fries">French
+                    Fries</label>
+                <label for="Ice-Cream"><input type="checkbox" name="" id="Ice-Cream" value="ice-cream">Ice
+                    Cream</label>
+                <label for="Coffe-Tea"><input type="checkbox" name="" id="Coffe-Tea"
+                        value="coffe-tea">Coffe/Tea</label>
+                <label for="Other"><input type="checkbox" name="" id="Other" value="other">Other</label>
+            </div>
+        </div><br>
+        <div class="flex-div">
+            <div class="left-div"><label>For you, what was the worst restaurant quality?</label></div>
+            <div class="right-div">
+                <select id="" class="down">
+                    <option value="">Speed of Service</option>
+                    <option value="">Cleanliness</option>
+                    <option value="">Parking</option>
+                    <option value="">Quality of food</option>
+                    <option value="">Choice of food</option>
+                </select>
+            </div>
+        </div><br>
+        <div class="flex-div">
+            <div class="left-div"><label for="rate" id="number-label">How do you rate the over performance of this restaurant?<span>(Rate
+                        on a scale of 1 to 10, where 10 is Excellent and 1 is Poor)</span></label></div>
+            <div id="rate1" class="right-div"><input id="rate" class="down" type="number" name="number" min="1" max="10"
+                    placeholder="Rate us" required></div>
+        </div><br>
+        <div class="flex-div">
+            <div id="text-label" class="left-div"><label for="textarea">Any comments or suggestion?</label></div>
+            <div id="txt-div" class="right-div"><textarea name="" id="textarea" placeholder="Enter your comment here...."></textarea>
+            </div>
         </div><br>
         <div id="summit-button">
-        <button id="submit" type="submit">Submit</button>
+            <button id="submit" type="submit">Submit</button>
         </div>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
