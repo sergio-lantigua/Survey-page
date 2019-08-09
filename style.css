@@ -6,7 +6,7 @@ html { font-size: 62.5%;}
 
 body{
      font-family: 'Roboto', sans-serif;
-     /* background: url(https://previews.123rf.com/images/seamartini/seamartini1611/seamartini161100889/67683598-fast-food-background-seamless-pattern-with-vector-flat-icons-of-cheeseburger-pizza-burrito-french-fr.jpg); */
+     background: url(https://previews.123rf.com/images/seamartini/seamartini1611/seamartini161100889/67683598-fast-food-background-seamless-pattern-with-vector-flat-icons-of-cheeseburger-pizza-burrito-french-fr.jpg);
      display: flex;
      flex-direction: column;
      align-items: center;
